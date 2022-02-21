@@ -9,16 +9,16 @@ module.exports = function (file) {
 
   // Declare Methods
   var methods = {
-    fetch: require("./methods/fetch.js"),
-    set: require("./methods/set.js"),
-    add: require("./methods/add.js"),
-    subtract: require("./methods/subtract.js"),
-    push: require("./methods/push.js"),
-    delete: require("./methods/delete.js"),
-    has: require("./methods/has.js"),
-    all: require("./methods/all.js"),
-    type: require("./methods/type"),
-    clear: require("./methods/clear"),
+    fetch: require("./options/fetch.js"),
+    set: require("./options/set.js"),
+    add: require("./options/add.js"),
+    subtract: require("./options/subtract.js"),
+    push: require("./options/push.js"),
+    delete: require("./options/delete.js"),
+    has: require("./options/has.js"),
+    all: require("./options/all.js"),
+    type: require("./options/type"),
+    clear: require("./options/clear"),
   };
 
   module = {
