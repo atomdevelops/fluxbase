@@ -1,7 +1,7 @@
 // Require Package
-let fluxdb = require("fluxdb");
+let fluxdb = require("fluxbase");
 
-let db = fluxdb();
+let db = fluxbase();
 
 (async () => {
   // Setting an object to a value

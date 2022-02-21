@@ -1,4 +1,4 @@
-declare module "fluxdb" {
+declare module "fluxbase" {
   export interface Options {
     target?: string | null;
     table?: string;
