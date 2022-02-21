@@ -1,7 +1,7 @@
 # Fluxbase
 ![Flux](./src/assets/image_2022-02-21_110116.png)
 
-Flubase is an open-sourced package used to allow a beginner-friendly way of storing data. All data is perpetually stored using better-sqlite3 and works right out of the box!
+Fluxbase is an open-sourced package used to allow a beginner-friendly way of storing data. All data is perpetually stored using better-sqlite3 and works right out of the box!
 - **Perpetually stored content** - None of your data will be missing through restarts
 - **Out of the box** - Fluxbase is guaranteed to work with **no errors** out of the box!
 - **Extremely simple** - Fluxbase has very simple syntax and methods which means there's almost no learning curve!
@@ -10,8 +10,8 @@ Flubase is an open-sourced package used to allow a beginner-friendly way of stor
 
 ## Example
 ```js
-import { FluxDB } from 'fluxdb';
-const db = new FluxDB();
+let Fluxbase = require("fluxbase");
+let db = Fluxbase();
 
 (async () => {
   // Setting an object to a value
