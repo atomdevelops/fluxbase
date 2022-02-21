@@ -1,7 +1,7 @@
 # Fluxbase
-![Fluxbase](./src/assets/image_2022-02-21_110116.png)
+![Flux](./src/assets/image_2022-02-21_110116.png)
 
-Flubasex is an open-sourced package used to allow a beginner-friendly way of storing data. All data is perpetually stored using better-sqlite3 and works right out of the box!
+Flubase is an open-sourced package used to allow a beginner-friendly way of storing data. All data is perpetually stored using better-sqlite3 and works right out of the box!
 - **Perpetually stored content** - None of your data will be missing through restarts
 - **Out of the box** - Fluxbase is guaranteed to work with **no errors** out of the box!
 - **Extremely simple** - Fluxbase has very simple syntax and methods which means there's almost no learning curve!
