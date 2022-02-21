@@ -10,7 +10,8 @@ Flux is an open-sourced package used to allow a beginner-friendly way of storing
 
 ## Example
 ```js
-import db from 'fluxdb';
+import { FluxDB } from 'fluxdb';
+const db = new FluxDB();
 
 // Setting an object to a value
 db.set('userInformation', { difficulty: 'Normal' });
