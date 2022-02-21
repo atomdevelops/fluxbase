@@ -1,0 +1,35 @@
+{
+  "name": "fluxdb",
+  "version": "8.0.0",
+  "description": "An easy-to-use, beginner-friendly better-sqlite3 wrapper. No configuration required!",
+  "main": "index.js",
+  "dependencies": {
+    "better-sqlite3": "^7.1.1",
+    "lodash": "^4.17.20"
+  },
+  "scripts": {
+    "test": "node spec/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomdevelops/flux.git"
+  },
+  "keywords": [
+    "database",
+    "storing",
+    "values",
+    "easy",
+    "fluxdb",
+    "flux",
+    "sqlite",
+    "sqlite3",
+    "db"
+  ],
+  "author": "atomdevelops",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atomdevelops/flux/issues"
+  },
+  "homepage": "https://flux.js.org",
+  "types": "./index.d.ts"
+}
