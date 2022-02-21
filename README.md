@@ -1,7 +1,7 @@
 # Flux
 ![Flux](./image_2022-02-21_083452.png)
 
-Flux is an open-sourced package used to allow a beginner-friendly way of storing data. All stored data is perpetually stored through better-sqlite3 and works right out of the box!
+Flux is an open-sourced package used to allow a beginner-friendly way of storing data. All data is perpetually stored using better-sqlite3 and works right out of the box!
 - **Perpetually stored content** - None of your data will be missing through restarts
 - **Out of the box** - Flux is guaranteed to work with **no errors** out of the box!
 - **Extremely simple** - Flux has very simple syntax and methods which means there's almost no learning curve!
