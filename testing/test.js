@@ -1,5 +1,5 @@
 // Require Package
-let fluxdb = require("fluxbase");
+let fluxbase = require("fluxdata");
 
 let db = fluxbase();
 
