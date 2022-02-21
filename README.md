@@ -37,11 +37,11 @@ If there are any issues with the installation process, make sure to view our doc
 **Windows and Linux**
 With `npm`:
 ```
-npm install fluxdb
+npm install fluxdb better-sqlite3
 ```
 With `yarn`:
 ```
-yarn add fluxdb
+yarn add fluxdb better-sqlite3
 ```
 **Note:** Windows users may need to follow additional steps [found here](https://flux.atomdev.cf).
 
