@@ -13,22 +13,24 @@ Flux is an open-sourced package used to allow a beginner-friendly way of storing
 import { FluxDB } from 'fluxdb';
 const db = new FluxDB();
 
-// Setting an object to a value
-db.set('userInformation', { difficulty: 'Normal' });
+(async () => {
+  // Setting an object to a value
+  await db.set('userInformation', { difficulty: 'Normal' });
 
-// Pushing a currently non-existent item to an array in an object
-db.push('userInfo.gear', 'Hammer');
+  // Pushing a currently non-existent item to an array in an object
+  await db.push('userInfo.gear', 'Hammer');
 
-// Adding to a currently non-existent value in an object
-db.add('userInfo.coins', 100);
+  // Adding to a currently non-existent value in an object
+  await db.add('userInfo.coins', 100);
 
-// Reusing previously mentioned methods
-db.push('userInfo.gear', 'Axe');
-db.add('userInfo.coins', 150);
+  // Reusing previously mentioned methods
+  await db.push('userInfo.gear', 'Axe');
+  await db.add('userInfo.coins', 150);
 
-// Fetching properties
-db.get('userInfo.coins'); // 250
-db.get('userInfo.gear'); // ['Hammer', 'Axe']
+  // Fetching properties
+  await db.get('userInfo.coins'); // 250
+  await db.get('userInfo.gear'); // ['Hammer', 'Axe']
+})();
 ```
 
 ## How to install
