@@ -10,7 +10,7 @@ Fluxbase is an open-sourced package used to allow a beginner-friendly way of sto
 - **Well-documented** - Fluxbase has a very thorough and intuitive documentation to help you get started!
 - Much, much more!
 
-\*\*Fluxbase is temporarily named "fluxdata" for reasons regarding for package names taken. The other package will be removed shortly and fluxbase won't be named fluxdata.\*\*
+**Fluxbase is temporarily named "fluxdata" for reasons regarding for package names taken. The other package will be removed shortly and fluxbase won't be named fluxdata.**
 
 ## Example
 
